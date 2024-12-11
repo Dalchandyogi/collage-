@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-books</title>
+    <link rel="icon" type="image/png" href="Images/fav-icon.png">
+
+
+    <!-- ----------------- coustom css ----------------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ----------------- google fonts ----------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ----------------- swiper css ----------------- -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------- Navbar ----------------- -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-book"></i>
+            <p>e-book <span>s</span></p>
+        </div>
+
+        <div class="headers">
+            <a href="#">Home</a>
+            <a href="#">Category</a>
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Type to search...">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="users">
+            <p><i class="fa-solid fa-moon"></i></p>
+            <p><i class="fa-solid fa-heart" style="color: red;"></i></p>
+            <a href="/login.html" target="_parent">
+                <p><i class="fa-solid fa-user fa-beat-fade"></i></p>
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- ----------------- Home Section ----------------- -->
+    <section class="home">
+        <div class="home_container">
+            <div class="home_data">
+
+                <h1 class="home_title">
+                    Browse & <br>
+                    Select E-Books
+                </h1>
+
+                <p class="home_description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis beatae obcaecati nemo minima
+                    voluptatibus! Illo voluptatibus accusantium consequuntur in, ab voluptas.
+                </p>
+
+                <a href="#">Explore Now</a>
+            </div>
+
+            <div class="home_images">
+                <div class="home_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="home_artical swiper-slide">
+                            <img src="Images/book.jpg" class="home_img" alt="">
+                        </article>
+
+                        <article class="home_artical swiper-slide">
+                            <img src="Images/book 1.jpeg" class="home_img" alt="">
+                        </article>
+
+                        <article class="home_artical swiper-slide">
+                            <img src="Images/book-2.jpg" class="home_img" alt="">
+                        </article>
+
+                        <article class="home_artical swiper-slide">
+                            <img src="Images/boo-4.jpg" class="home_img" alt="">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------- Features Section ----------------- -->
+    <h1 class="title">Features of our Website</h1>
+    <section class="features">
+        <div class="features_container swiper">
+            <div class="swiper-wrapper">
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-download"></i>
+                    <h3>Free Downloads</h3>
+                </div>
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-ban"></i>
+                    <h3>Ads free</h3>
+                </div>
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-share"></i>
+                    <h3>Read Books</h3>
+                </div>
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-sync"></i>
+                    <h3>Share Books</h3>
+                </div>
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-star"></i>
+                    <h3>Top Ratings</h3>
+                </div>
+                <div class="feature swiper-slide">
+                    <i class="fa-solid fa-headphones"></i>
+                    <h3> Request for book</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------------- swiper js ----------------- -->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- ----------------- coustom js ----------------- -->
+    <script src="main.js"></script>
+
+    <!-- ----------------- fontawesome ----------------- -->
+    <script src="https://kit.fontawesome.com/c24aa45c89.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
